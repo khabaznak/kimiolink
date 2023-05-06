@@ -1,0 +1,23 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+    // Add any custom rules you want here
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}
